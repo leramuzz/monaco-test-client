@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "outDir": "./build/",
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "removeComments": false,
+        "module": "esnext",
+        "target": "es5",
+        "jsx": "react-jsx",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "lib": [
+            "esnext",
+            "dom",
+            "dom.iterable"
+        ],
+    },
+    "include": [
+        "src",
+        "vite.config.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "src/**/*.test.ts",
+        "src/**/*.spec.tsx"
+    ]
+}
